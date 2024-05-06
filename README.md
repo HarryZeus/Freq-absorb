@@ -4,6 +4,6 @@ Balancing key-value stores under write-intensive workloads
 We reuse the project of reference_switch in NetFPGA-SUME, add our hardware primitives into it. 
 Specifically, we embedded Freq-absorb into the datapath of the reference_switch. When using the code from this repository, it is necessary to replace the original nf_datapath.v in the reference_switch project.
 
-After compiling the project and burning the bitstream into the FPGA, the testing programs for both the client and server can be started.
+After compiling the project and download the bitstream into the FPGA, the testing programs for both the client and server can be started.
 
 NetFPGA-SUME reference_switch: https://github.com/harvard-cns/NetFPGA-SUME/tree/master/projects/reference_switch
